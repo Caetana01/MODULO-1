@@ -1,4 +1,4 @@
-# Entraga MODULO-1
+# Entrega MODULO-1
 **Los Inductores**   
 
 - Franco Manassero - <https://github.com/Franco-Manassero/modulo_1.git>
