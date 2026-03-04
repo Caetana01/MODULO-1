@@ -9,7 +9,7 @@
 
 - Joaquín Bressan - <https://github.com/aidenisquino/modulo_1>
 
-- Caetana Leo - <https://github.com/Caetana01/MODULO-1>
+- Caetana Leo - <https://github.com/Caetana01/MODULO1>
 ---
 **EJERCICIO 1 Cómo crear, modificar y hacer el archivo README.md**
 
