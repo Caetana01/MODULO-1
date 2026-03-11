@@ -27,6 +27,8 @@
 ---
 **Atajos en GoogleDocs en lenguaje MarkDown**
 
+Tener en cuenta que para el uso de esos atajos hay que crear un documento en GoogleDocs dirigirse a la pestañas de Herramientas luego seleccionar la opción de preferencia y habilitar MarkDown.
+
 ## Formato de texto
 | Acción | Atajo Windows / Linux | Atajo Mac |
 |------|----------------|-----------|
