@@ -1,6 +1,6 @@
 # Entrega MODULO-1
 **Los Inductores**   
-| APELLIDO Y NOMBRE | CORREO ELECTRÓNICO | TELEFONO | REPOSITORIO INDIVIDUAL || REPOSITORIO DE ENTREGA |
+| APELLIDO Y NOMBRE | CORREO ELECTRÓNICO | TELEFONO | REPOSITORIO INDIVIDUAL | REPOSITORIO DE ENTREGA |
 | :------: | :------: | :------: | :------: |
 | Bressan Joaquín | joaquinbressan04@gmail.com | 2613637754 | <https://github.com/aidenisquino> | <https://github.com/aidenisquino/modulo_1>|
 | Don Ignacio | nachodon3@gmail.com | 2615899400 | <https://github.com/IgnacioDon> | <https://github.com/IgnacioDon/Modulo_1>|
