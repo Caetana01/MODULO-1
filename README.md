@@ -96,3 +96,57 @@ Tener en cuenta que para el uso de esos atajos hay que crear un documento en Goo
 | Insertar enlace | Ctrl + K | Cmd + K |
 | Insertar salto de página | Ctrl + Enter | Cmd + Enter |
 | Mostrar ayuda de atajos | Ctrl + / | Cmd + / |
+
+---
+**Resumen de colab**
+
+# Guía Técnica: Google Colaboratory
+
+Google Colab es un entorno de desarrollo basado en **Jupyter Notebook**. Permite la ejecución de código Python sin configuración local, proporcionando acceso a recursos de cómputo de alto rendimiento.
+
+---
+
+## 1. Interfaz y Componentes
+
+* **Notebooks:** Archivos `.ipynb` almacenados en Google Drive.
+* **Celdas de Código:** Bloques ejecutables de Python.
+* **Celdas de Texto:** Documentación en formato Markdown y soporte para $\LaTeX$.
+* **Panel Lateral:** Índice de secciones, búsqueda y explorador de archivos.
+
+## 2. Configuración del Entorno (Runtime)
+
+Para tareas de cómputo intensivo, se debe configurar el acelerador:
+
+1. **Entorno de ejecución** > **Cambiar tipo de entorno de ejecución**.
+2. Seleccionar **T4 GPU** o **TPU**.
+
+## 3. Gestión de Librerías y Sistema
+
+Colab incluye librerías científicas preinstaladas (NumPy, Pandas, Scikit-learn).
+
+* **Instalación de paquetes:** `!pip install <nombre_paquete>`
+* **Comandos de terminal:** Anteponer `!` (ej. `!ls`, `!pwd`, `!git clone`).
+
+## 4. Persistencia de Datos
+
+Los archivos locales se eliminan al finalizar la sesión. Para almacenamiento persistente, se monta Google Drive:
+
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+
+```
+
+## 5. Atajos de Teclado Principales
+
+| Acción | Comando |
+| --- | --- |
+| **Ejecutar celda** | `Shift + Enter` |
+| **Insertar celda (arriba/abajo)** | `Ctrl + M + A` / `Ctrl + M + B` |
+| **Convertir a texto** | `Ctrl + M + M` |
+| **Eliminar celda** | `Ctrl + M + D` |
+
+---
+
+¿Necesitas que añada algún bloque de código específico para la conexión con bases de datos o visualización avanzada?
+
