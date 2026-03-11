@@ -1,7 +1,7 @@
 # Entrega MODULO-1
 **Los Inductores**
 
-
+![Logo](https://raw.githubusercontent.com/Caetana01/MODULO-1/refs/heads/main/Logo.png)
 
 | APELLIDO Y NOMBRE | CORREO ELECTRÓNICO | TELEFONO | REPOSITORIO INDIVIDUAL | REPOSITORIO DE ENTREGA |
 | :------: | :------: | :------: | :------: | :------: |
