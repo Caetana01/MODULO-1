@@ -23,3 +23,71 @@
 **EJERCICIO 5 Creación de un CV en un archivo LATex**
 
 **EJERCICIO 6 Creación de archivo con metadatos en el entorno R**
+
+---
+**Atajos en GoogleDocs en lenguaje MarkDown**
+
+## Formato de texto
+| Acción | Atajo Windows / Linux | Atajo Mac |
+|------|----------------|-----------|
+| Negrita | Ctrl + B | Cmd + B |
+| Cursiva | Ctrl + I | Cmd + I |
+| Subrayado | Ctrl + U | Cmd + U |
+| Tachado | Alt + Shift + 5 | Cmd + Shift + X |
+| Borrar formato | Ctrl + \ | Cmd + \ |
+
+## Tamaño y estilo de texto
+| Acción | Atajo Windows / Linux | Atajo Mac |
+|------|----------------|-----------|
+| Aumentar tamaño de fuente | Ctrl + Shift + > | Cmd + Shift + > |
+| Disminuir tamaño de fuente | Ctrl + Shift + < | Cmd + Shift + < |
+| Aplicar título | Ctrl + Alt + 1–6 | Cmd + Option + 1–6 |
+| Texto normal | Ctrl + Alt + 0 | Cmd + Option + 0 |
+
+## Alineación
+| Acción | Atajo Windows / Linux | Atajo Mac |
+|------|----------------|-----------|
+| Alinear izquierda | Ctrl + Shift + L | Cmd + Shift + L |
+| Alinear centro | Ctrl + Shift + E | Cmd + Shift + E |
+| Alinear derecha | Ctrl + Shift + R | Cmd + Shift + R |
+| Justificar | Ctrl + Shift + J | Cmd + Shift + J |
+
+## Listas
+| Acción | Atajo Windows / Linux | Atajo Mac |
+|------|----------------|-----------|
+| Lista numerada | Ctrl + Shift + 7 | Cmd + Shift + 7 |
+| Lista con viñetas | Ctrl + Shift + 8 | Cmd + Shift + 8 |
+| Lista de verificación | Ctrl + Shift + 9 | Cmd + Shift + 9 |
+| Aumentar sangría | Tab | Tab |
+| Disminuir sangría | Shift + Tab | Shift + Tab |
+
+## Edición
+| Acción | Atajo Windows / Linux | Atajo Mac |
+|------|----------------|-----------|
+| Copiar | Ctrl + C | Cmd + C |
+| Cortar | Ctrl + X | Cmd + X |
+| Pegar | Ctrl + V | Cmd + V |
+| Deshacer | Ctrl + Z | Cmd + Z |
+| Rehacer | Ctrl + Y | Cmd + Shift + Z |
+| Seleccionar todo | Ctrl + A | Cmd + A |
+
+## Navegación
+| Acción | Atajo Windows / Linux | Atajo Mac |
+|------|----------------|-----------|
+| Buscar | Ctrl + F | Cmd + F |
+| Buscar y reemplazar | Ctrl + H | Cmd + Shift + H |
+| Ir al inicio del documento | Ctrl + Home | Cmd + Fn + ← |
+| Ir al final del documento | Ctrl + End | Cmd + Fn + → |
+
+## Comentarios y colaboración
+| Acción | Atajo Windows / Linux | Atajo Mac |
+|------|----------------|-----------|
+| Insertar comentario | Ctrl + Alt + M | Cmd + Option + M |
+| Abrir historial de versiones | Ctrl + Alt + Shift + H | Cmd + Option + Shift + H |
+
+## Otros útiles
+| Acción | Atajo Windows / Linux | Atajo Mac |
+|------|----------------|-----------|
+| Insertar enlace | Ctrl + K | Cmd + K |
+| Insertar salto de página | Ctrl + Enter | Cmd + Enter |
+| Mostrar ayuda de atajos | Ctrl + / | Cmd + / |
