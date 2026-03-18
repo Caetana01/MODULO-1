@@ -147,5 +147,5 @@ drive.mount('/content/drive')
 | **Eliminar celda** | `Ctrl + M + D` |
 
 ---
-
+**Ecuación de Euler en LaTex**
 $$e^{i\pi} + 1 = 0$$
