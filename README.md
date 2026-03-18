@@ -148,5 +148,3 @@ drive.mount('/content/drive')
 
 ---
 
-¿Necesitas que añada algún bloque de código específico para la conexión con bases de datos o visualización avanzada?
-
