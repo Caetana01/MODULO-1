@@ -1,0 +1,125 @@
+\documentclass[lighthipster]{simplehipstercv}
+\usepackage[utf8]{inputenc}
+\usepackage[default]{raleway}
+\usepackage[margin=1cm, a4paper]{geometry}
+
+\newlength{\rightcolwidth}
+\newlength{\leftcolwidth}
+\setlength{\leftcolwidth}{0.23\textwidth}
+\setlength{\rightcolwidth}{0.75\textwidth}
+
+\title{New Simple CV}
+\author{\LaTeX{} Caetana Leo}
+\date{March 2026}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\section*{Start}
+
+\simpleheader{headercolour}{Caetana}{Leo}{Estudiante de Ingeniería Industrial}{white}
+
+\subsection*{}
+\vspace{4em}
+
+\setlength{\columnsep}{1.5cm}
+\columnratio{0.23}[0.75]
+
+\begin{paracol}{2}
+
+\footnotesize
+{\setasidefontcolour
+\flushright
+
+\includegraphics[width=0.5\linewidth]{b4814adb-c3ac-4328-99c7-d3746ac94d7d.jpg}
+
+\bg{cvgreen}{white}{Acerca de mí}\\[0.5em]
+Estudiante de Ingeniería Industrial con interés en gestión de proyectos. 
+
+\bigskip
+
+\bg{cvgreen}{white}{Personal}\\[0.5em]
+Caetana Leo\\
+Nacionalidad: Argentina\\
+Año de nacimiento: 2004
+
+\bigskip
+
+\bg{cvgreen}{white}{Áreas de especialización}\\[0.5em]
+Gestión de procesos ~•~ Logística ~•~ Optimización ~•~ Análisis de datos
+
+\bigskip
+
+\bg{cvgreen}{white}{Intereses}\\[0.5em]
+Lectura ~•~ Aprendizaje continuo ~•~ Divulgación científica ~•~ Pensamiento crítico ~•~ Innovación
+
+\bigskip
+
+
+
+\vspace{4em}
+
+\infobubble{\faAt}{cvgreen}{white}{caeleocrimi@gmail.com}
+\infobubble{\faGithub}{cvgreen}{white}{Caetana01}
+}
+
+%-----------------------------------
+\switchcolumn
+
+\small
+
+\section*{Educación}
+
+\cvevent
+{2023--Actualidad}
+{Educación Superior}
+{Universidad Nacional de Cuyo}
+{Mendoza}
+{Ingeniería Industrial}{}
+
+\vspace{0.5em}
+
+
+
+
+%\cvevent{fecha}{título}{lugar}{detalle}{descripción}{imagen}
+\cvevent
+{2017--2023}
+{Educación Secundaria}
+{ISMA}
+{Mendoza}
+{Bachiller en Ciencias Sociales}{}
+
+\section*{Habilidades}
+
+Análisis de datos: \texttt{Excel}
+
+Documentación: \texttt{LaTeX}
+
+\vspace{2em}
+
+\section*{Idiomas}
+
+\begin{tabular}{l l}
+Español & Nativo \\
+Inglés & B2 \\
+\end{tabular}
+
+\vfill
+
+%-----------------------------------
+\setlength{\parindent}{0pt}
+\begin{minipage}[t]{\rightcolwidth}
+\begin{center}
+{\small Caetana Leo \icon{\faEnvelopeO}{cvgreen}{} caeleocrimi@gmail.com 
+\icon{\faMapMarker}{cvgreen}{} Mendoza, Argentina 
+\icon{\faPhone}{cvgreen}{} 2617173770}
+\end{center}
+\end{minipage}
+
+\end{paracol}
+
+\end{document}
