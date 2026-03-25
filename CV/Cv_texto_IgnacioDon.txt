@@ -1,0 +1,181 @@
+% a mashup of hipstercv, friggeri and twenty cv
+% https://www.latextemplates.com/template/twenty-seconds-resumecv
+% https://www.latextemplates.com/template/friggeri-resume-cv
+
+\documentclass[lighthipster]{simplehipstercv}
+% available options are: darkhipster, lighthipster, pastel, allblack, grey, verylight, withoutsidebar
+% withoutsidebar
+\usepackage[utf8]{inputenc}
+\usepackage[default]{raleway}
+\usepackage[margin=1cm, a4paper]{geometry}
+
+
+%------------------------------------------------------------------ Variablen
+
+\newlength{\rightcolwidth}
+\newlength{\leftcolwidth}
+\setlength{\leftcolwidth}{0.23\textwidth}
+\setlength{\rightcolwidth}{0.75\textwidth}
+
+%------------------------------------------------------------------
+\title{New Simple CV}
+\author{\LaTeX{} Ninja}
+\date{June 2019}
+
+\pagestyle{empty}
+\begin{document}
+
+
+\thispagestyle{empty}
+%-------------------------------------------------------------
+
+\section*{Start}
+
+\simpleheader{headercolour}{Guillermo Ignacio}{Don}{Estudiante Ingenieria Industrial}{white}
+
+
+
+%------------------------------------------------
+
+% this has to be here so the paracols starts..
+\subsection*{}
+\vspace{4em}
+
+\setlength{\columnsep}{1.5cm}
+\columnratio{0.23}[0.75]
+\begin{paracol}{2}
+\hbadness5000
+%\backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
+
+\paracolbackgroundoptions
+
+% 0.9,0.9,0.9 -- 0.8,0.8,0.8
+
+
+\footnotesize
+{\setasidefontcolour
+\flushright
+\begin{center}
+    \roundpic{foto12.png}
+\end{center}
+
+\bg{cvgreen}{white}{Sobre mi}\\[0.5em]
+
+{Estudiante Ingenieria industrial de la Universidad Nacional de Cuyo, MENDOZA, Argentina
+\footnotesize
+}
+\bigskip
+
+\bg{cvgreen}{white}{Personal} \\[0.5em]
+Guillero Ignacio Don
+
+nationality: Argentino
+
+2004
+
+\bigskip
+
+\bg{cvgreen}{white}{Areas de especializacion} \\[0.5em]
+
+Fisica ~•~ Logistica ~•~ Matematica ~•~ Solucion de problemas 
+
+\bigskip
+
+
+
+\bigskip
+
+\bg{cvgreen}{white}{Intereces}\\[0.5em]
+Optimizacion de recursos ~•~ Innovaciones tecnologicas ~•~ Avances cientificos ~•~ Aprendizaje continuo 
+
+\bigskip
+
+
+\infobubble{\faAt}{cvgreen}{white}{g.ignaciodon.04@gmail.com}
+\infobubble{\faTwitter}{cvgreen}{white}{@g.ignacio.don}
+\infobubble{\faFacebook}{cvgreen}{white}{Ignacio\_Don}
+\infobubble{\faGithub}{cvgreen}{white}{IgnacioDon.}
+
+\phantom{turn the page}
+
+\phantom{turn the page}
+}
+%-----------------------------------------------------------
+\switchcolumn
+
+\small
+\section*{}
+
+
+
+\begin{minipage}[t]{0.35\textwidth}
+\section*{Formacion Academica}
+\begin{tabular}{r p{0.6\textwidth} c}
+    \cvdegree{2026}{Estudiante Igneniria Industrial}{Tercer Año}{Universidad Nacional De Cuyo \color{headerblue}}{}{blanco.jpg} \\
+    \cvdegree{2021}{Bachillerato en Economia}{I.S.E.P.}{Mendoza \color{headerblue}}{}{blanco.jpg} \\
+\end{tabular}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Progamacion}
+\begin{tabular}{r @{\hspace{0.5em}}l}
+     \bg{skilllabelcolour}{iconcolour}{html, css} &  \barrule{0.4}{0.5em}{cvpurple}\\
+     \bg{skilllabelcolour}{iconcolour}{\LaTeX} & \barrule{0.55}{0.5em}{cvgreen} \\
+     \bg{skilllabelcolour}{iconcolour}{python} & \barrule{0.5}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{R} & \barrule{0.25}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{javascript} & \barrule{0.1}{0.5em}{cvpurple} \\
+\end{tabular}
+\end{minipage}
+
+\section*{Habilidades}
+Trabajo en equipo.
+
+\vspace{0em}
+
+Manejo de: Excel, LaTeX, Mathlab, Octave 
+
+
+\vspace{2em}
+
+
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Certificados}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.55\textwidth}}
+    2026 & Estudiante Ingenieria Industrial \\
+    2021 & Bachillerato en Economia \\
+    
+\end{tabular}
+\bigskip
+
+\section*{Idiomas}
+\begin{tabular}{l | ll}
+\textbf{Español} & C2 & {\phantom{x}\footnotesize Lengua Materna} \\
+\textbf{Ingles} & C2 & \pictofraction{\faCircle}{cvgreen}{3}{black!30}{1}{\tiny} \\
+\end{tabular}
+\bigskip
+
+\end{minipage}\hfill
+
+
+
+
+
+
+
+
+
+\vfill{} % Whitespace before final footer
+
+%----------------------------------------------------------------------------------------
+%	FINAL FOOTER
+%----------------------------------------------------------------------------------------
+\setlength{\parindent}{0pt}
+\begin{minipage}[t]{\rightcolwidth}
+\begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
+{\small Ignacio Don \icon{\faEnvelopeO}{cvgreen}{} g.ignaciodon.04@gmail.com  \icon{\faMapMarker}{cvgreen}{} MENDOZA, Argentina \icon{\faPhone}{cvgreen}{} 2515899400 \newline\icon{\faAt}{cvgreen}{} \protect\url{https://ignaciodon.github.io/Modulo_1/}
+}
+\end{center}
+\end{minipage}
+
+\end{paracol}
+
+\end{document}
