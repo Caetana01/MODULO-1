@@ -1,0 +1,159 @@
+% a mashup of hipstercv, friggeri and twenty cv
+% https://www.latextemplates.com/template/twenty-seconds-resumecv
+% https://www.latextemplates.com/template/friggeri-resume-cv
+
+\documentclass[lighthipster]{simplehipstercv}
+% available options are: darkhipster, lighthipster, pastel, allblack, grey, verylight, withoutsidebar
+% withoutsidebar
+\usepackage[utf8]{inputenc}
+\usepackage[default]{raleway}
+\usepackage[margin=1cm, a4paper]{geometry}
+
+
+%------------------------------------------------------------------ Variablen
+
+\newlength{\rightcolwidth}
+\newlength{\leftcolwidth}
+\setlength{\leftcolwidth}{0.23\textwidth}
+\setlength{\rightcolwidth}{0.75\textwidth}
+
+%------------------------------------------------------------------
+\title{New Simple CV}
+\author{\LaTeX{} Ninja}
+\date{June 2019}
+
+\pagestyle{empty}
+\begin{document}
+
+
+\thispagestyle{empty}
+%-------------------------------------------------------------
+
+\section*{Start}
+
+\simpleheader{headercolour}{Franco Andrés}{Manassero}{Estudiante de ingeniería industrial}{white}
+
+
+
+%------------------------------------------------
+
+% this has to be here so the paracols starts..
+\subsection*{}
+\vspace{4em}
+
+\setlength{\columnsep}{2cm}
+\columnratio{0.23}[0.75]
+\begin{paracol}{2}
+\hbadness5000
+%\backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
+
+\paracolbackgroundoptions
+
+% 0.9,0.9,0.9 -- 0.8,0.8,0.8
+
+
+\footnotesize
+{\setasidefontcolour
+\flushright
+\begin{center}
+    \roundpic{IMG_20260325_165824.jpg}
+\end{center}
+
+\bg{cvgreen}{white}{Sobre mí}\\[0.5em]
+
+{Soy estudiante de cuarto año de ingeniería industrial en la Universidad Nacional de Cuyo. Actualmente, tengo 21 años y soy técnico mecánico recibido de la Escuela Técnico Industrial Emilio Civit. Me considero una persona capaz de aprender rápido y que logra desenvolverse con cierta agilidad dentro del ámbito académico. }
+\bigskip
+
+\bg{cvgreen}{white}{Datos personales} \\[0.5em]
+Franco Andrés Manassero
+
+Nacionalidad: Argentina
+
+2004
+
+\bigskip
+
+\bg{cvgreen}{white}{Intereses}\\[0.5em]
+{Estoy muy interesado en el ámbito de la logística y la gestión de proyectos encuadrado dentro del ámbito productivo.}
+\bigskip
+
+
+\vspace{4em}
+
+\infobubble{\faAt}{cvgreen}{white}{nalentiva99@gmail.com}
+\infobubble{\faGithub}{cvgreen}{white}{Franco-Manassero}
+
+\phantom{turn the page}
+
+\phantom{turn the page}
+}
+%-----------------------------------------------------------
+\switchcolumn
+
+\small
+\section*{Resumen}
+
+\begin{tabular}{r| p{0.5\textwidth} c}
+    \cvevent{2023--Actualidad}{Estudios de grado}{Estudiante}{Mendoza, Argentina \color{cvred}}{Desde el año 2023 me encuentro cursando la carrera Ingeniería Industrial en la Universidad Nacional de Cuyo. A lo largo de mi trayectoria académica he logrado un muy buen rendimiento. Durante el año 2024, me desempeñé como ayudante de cátedra de segunda de Geoemtría Analítica en el marco de una propuesta presentada por la profesora titular del espacio. Actualmente, me encuentro cursando el primer semestre del cuarto año según plan de estudios 110/2004.  }{disney.png} \\
+    \cvevent{2017--2022}{Estudios secundarios}{Estudiante/Técnico Mecánico}{Mendoza, Argentina \color{cvred}}{Recibido de la Escuela Técnico Industrial Emilio Civit en el año 2022 bajo el título de Técnico Mecánico.}{medal.jpeg}
+\end{tabular}
+\vspace{2em}
+
+\begin{minipage}[t]{0.35\textwidth}
+\section*{Títulos}
+\begin{tabular}{r p{0.6\textwidth} c}
+    \cvdegree{2022}{Técnico Mecánico}{Expedido}{Escuela Técnico Industrial Emilio Civit \color{headerblue}}{}{disney.png} \\
+\end{tabular}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Programación}
+\begin{tabular}{r @{\hspace{0.5em}}l}
+     \bg{skilllabelcolour}{iconcolour}{html, css} &  \barrule{0.1}{0.5em}{cvpurple}\\
+     \bg{skilllabelcolour}{iconcolour}{\LaTeX} & \barrule{0.1}{0.5em}{cvgreen} \\
+     \bg{skilllabelcolour}{iconcolour}{python} & \barrule{0.1}{0.5em}{cvpurple} \\
+  
+\end{tabular}
+\end{minipage}
+
+\section*{Curriculum}
+\begin{tabular}{r| p{0.5\textwidth} c}
+    \cvevent{2023--Actualidad}{Estudiante de Ingeniería Industrial}{Estudiante}{UNCuyo, Mendoza, Argentina \color{cvred}}{Actualmente, me encuentro cursando cuarto año. Presento buen desempeño académico. \lorem}{disney.png} \\
+     \cvevent{2022}{Captain of the Black Pearl}{Lead}{East Indies \color{cvred}}{Finally got the goddamn ship back. \lorem}{disney.png} \\
+    \cvevent{2017-2022}{Freelance Pirate}{Bucaneering}{Tortuga \color{cvred}}{This and that. The usual, aye?  \lorem}{medal.jpeg} \\
+\end{tabular}
+\vspace{3em}
+
+\begin{minipage}[t]{0.7\textwidth}
+
+
+\section*{Languages}
+\begin{tabular}{l | ll}
+\textbf{Español} & C2 & {\phantom{x}\footnotesize lengua materna} \\
+\textbf{Inglés} & B1 & \pictofraction{\faCircle}{cvgreen}{3}{black!30}{3}{\tiny} \\
+\end{tabular}
+\bigskip
+
+\end{minipage}\hfill
+
+
+
+
+
+
+
+\vfill{} % Whitespace before final footer
+
+%----------------------------------------------------------------------------------------
+%	FINAL FOOTER
+%----------------------------------------------------------------------------------------
+\setlength{\parindent}{0pt}
+\begin{minipage}[t]{\rightcolwidth}
+\begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
+{\small Franco Andrés Manassero \icon{\faEnvelopeO}{cvgreen}{} Mendoza, Argentina \icon{\faMapMarker}{cvgreen}{} Maipú \icon{\faPhone}{cvgreen}{} +54 261 5703870 \newline\icon{\faAt}{cvgreen}{} \protect\url{nalentiva99@gmail.com}
+}
+\end{center}
+\end{minipage}
+
+\end{paracol}
+
+\end{document}
