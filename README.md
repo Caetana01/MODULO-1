@@ -1,4 +1,4 @@
-# Entrega MODULO-1
+# Entrega MODULO-1 y MODULO 2
 **Los Inductores**
 
 <p align="center">
