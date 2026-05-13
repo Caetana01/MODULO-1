@@ -4,7 +4,7 @@
 | APELLIDO Y NOMBRE | CORREO ELECTRÓNICO | TELEFONO | REPOSITORIO INDIVIDUAL | REPOSITORIO DE ENTREGA |
 | :------: | :------: | :------: | :------: | :------: |
 | Bressan Joaquín | joaquinbressan04@gmail.com | 2613637754 | <https://github.com/aidenisquino> | <https://github.com/aidenisquino/modulo_2> |
-| Don Ignacio | nachodon3@gmail.com | 2615899400 | https://github.com/IgnacioDon | FALTA LINK |
+| Don Ignacio | nachodon3@gmail.com | 2615899400 | https://github.com/IgnacioDon | <https://github.com/IgnacioDon/Modulo_2> |
 | García Leslie |leslierogarcia@gmail.com|261 219-4931|<https://github.com/leslierogarcia> |<https://github.com/leslierogarcia/M-dulo_2>|
 | Leo Caetana | caeleocrimi11@gmail.com | 2617173770 | https://github.com/Caetana01 | <https://github.com/Caetana01/M-dulo-2-INDIVIDUAL> |
 | Ludueña Alondra | pilaralondra789@gmail.com | 2615709845 | https://github.com/alondraluduena | <https://github.com/alondraluduena/Modulo_2> |
